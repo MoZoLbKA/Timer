@@ -48,11 +48,9 @@ namespace Timer
             else
             {
                 timer1.Stop();
-            }
-            if (_seconds %10 == 0)
-            {
-
-            }            
+                MessageBox.Show("ВРЕМЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ!!!!!", "Атэнш");
+                Close();
+            }           
             label1.Text = $"{GetRightString(_hours)}:{GetRightString(_minutes)}:{GetRightString(_seconds)}";
 
         }
